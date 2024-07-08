@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(73, 73, 163);
+    
+}
+.orqa-fon{
+    background-color: white;
+    padding: 15px 10px;
+    margin-top: 10%;
+    margin-left: 42%;
+    margin-right: 40%;
+    width: 280px;
+}
+.yozuvlar{
+    float: left;
+}
+input{
+    width: 260px;
+    height: 30px;
+    margin: 5px;
+}
+.yuborish1 button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 262px;
+    height: 35px;
+    margin-left: 6px
+}
+.yuborish1 a button{
+    font-size: 25px;
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.songi{
+    color:rgb(85, 175, 175)
+}
+.songi1{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.yozuv{
+color: blue;
+}
+.cars{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 268px;
+    height: 30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(73, 73, 163);
+    }
+    
+    .orqa-fon {
+        background-color: white;
+        padding: 15px 10px;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: auto; 
+        max-width: 280px; 
+    }
+    
+    .yozuvlar {
+        float: none;
+        text-align: center; 
+    }
+    input {
+        width: 100%; 
+        max-width: 100%; 
+        height: 30px;
+        margin: 5px;
+    }
+    
+    .yuborish {
+        width: 100%; 
+        max-width: 100%; 
+        height: 30px;
+        margin: 5px;
+        background-color: aqua;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 15px;
+        margin-left: -7px;
+    }
+    
+    .yuborish a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    h1, p {
+        text-align: center; 
+    }
+    
+    .songi {
+        color: rgb(85, 175, 175);
+        margin-top: 10px; 
+    }
+    
+    .yozuv {
+        color: blue;
+    }
+    
+    .cars {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%; 
+        max-width: 100%; 
+        height: 30px;
+    }
+}
+

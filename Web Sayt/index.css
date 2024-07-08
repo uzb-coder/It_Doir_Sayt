@@ -1,0 +1,1692 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.asosiy{
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    width: 100%;
+    display: inline-flex;
+    position: fixed;
+    background-color: #34ace0;
+}
+.rasim1{
+    border-radius: 20px;
+    border: none;
+    margin-top: 7px;
+    margin-left: 20px;
+    width: 150px;
+    height: 60px;
+}
+.menu ul {
+    background-color: red;
+}
+.menu ul,li{
+    margin-top: 5px;
+    display: block;
+    text-decoration: none;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.menu li{
+    font-size: 100%;
+}
+li a:hover{
+   border-bottom: 5px solid red;
+}
+.asosiy a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.asosiy input{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 250px;
+    height: 25px;
+}
+.asosiy input:hover{
+    border-radius: 20px;
+    border: solid 3px red; 
+}
+.asosiyButton1{
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+.asosiyButton1:hover{
+    border-radius: 20px;
+    background-color: red;
+    border: solid 3px red;
+}
+.asosiyButton2{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #1ade24;
+}
+.asosiyButton2:hover{
+    border-radius: 10px;
+    background-color: white;
+    border: solid 3px green;
+}
+#rasimAlmashish img{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+.icons{
+     margin-left: 32px;
+}
+.matin1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.asosmatin{
+    font-size: 26px;
+}
+.chiz{
+    color: red;
+    font-size: 40px;
+}
+#text-container {
+    width: 85%;
+    height: 5em;
+    overflow: hidden;
+    position: relative;
+  }
+  /*  */
+  #text-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2em;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white);
+  }
+  #text-container:hover {
+      padding: 20px;
+      background-color: rgb(232, 174, 66);
+      height: auto;
+  }
+  .gif{
+      background-image: url(./video/279b2e_55f3c5876d71489ea4900a0a2ad1cf58~mv2.gif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border: solid 2px black;
+      border-radius: 20px;
+      width: 86%;
+      height: 400px;
+      margin-left: 8%;
+  }
+.foiz{  
+    width: 97%;
+    height: 350px;
+    margin-left: 25px;
+    background-color: antiquewhite;
+}
+.foziop01{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: red;
+}
+.fozi01{
+    display: flex;
+    align-items: end;
+}
+.fozi01 span{
+    font-size: 150px;
+}
+.foiz p{
+   text-align: center;
+}
+.jamohaqidamatin{
+    text-align: center;
+    width: 900px;
+    margin-left: 20%;
+    font-size: 20px;
+}
+.jamohaqidamatin a{
+    text-decoration: none;
+}
+.jamohaqidamatin span{
+    color: red;
+}
+.birxilyozuv{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Bu qalqib chiquvchi oyna kodi */
+.yangiliklar{
+    background-color: rgb(234, 226, 218);
+    justify-content: center;
+    margin-left: 50px;
+}
+.textyangilik{
+    font-size: 30px;
+}
+.yangiliklar{
+    width: 95%;
+    height: 550px;
+} 
+.yangilikdagiRasim{
+    width: 600px;
+    height: 165px;
+    border-radius: 10px;
+}
+.yangilikdagiRasim p{
+    width: 65%;
+    height: 300px;
+   
+}
+.yangilikdagiRasim img{
+    width: 150px;
+    height: 100px;
+    padding: .5em;
+    display: flex;
+}
+.yangiliklar01{
+    display: block;
+}
+.yangiliklar01 span{
+    font-size: 30px;
+    color: red;
+}
+.yangiliklar02 img{
+    width: 800px;
+    height: 440px;
+}
+.div{
+  display: flex;
+   width: 100%;
+   justify-content: center;
+    background-color: wheat;
+}
+.tortarsim{
+    width: 320px;
+    height: 200px;
+    border: solid 1px;
+}
+.blokrasim1{
+    margin: 25px;
+    background-color: rgb(101, 227, 185);
+}
+.blokrasim1 img{
+    width: 322px;
+}
+.blokrasim1 #blokRasim01{
+    width: 330px;
+}
+.blokrasim1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+.rivojlanish{
+    padding: 15px;
+    text-align: justify;
+    margin-top: -10px;  
+}
+.rasimhaiqda{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.rasimhaqidaButton{
+    margin-top: -60%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 30%;
+    border-radius: 25px;
+    border: solid 3px green;
+    background-color: green;
+}
+.rasimhaqidaButton:hover{
+    border: solid 3px green;
+    background-color: white;
+}
+.rasimhaqidaButton2{
+    font-size: 25px;
+    margin-left: 30%;
+    border: solid 1px;
+    margin-top: -10px;
+    border-radius: 25PX;
+    border: solid 3px red;
+    background-color: red;
+}
+.rasimhaqidaButton2:hover{
+    border: solid 3px red;
+    background-color: white;
+}
+.rasimhaqidaButton3{
+    font-size: 25px;
+    margin-left: 30%;
+    border: solid 1px;
+    border-radius: 25PX;
+    margin-top: -10px;
+    border: solid 3px yellow;
+    background-color: yellow;
+}
+.rasimhaqidaButton3:hover{
+    border: solid 3px yellow;
+    background-color: white;
+}
+.rasimhaqidaButton4{
+    font-size: 25px;
+    margin-left: 30%;
+    border: solid 1px;
+    border-radius: 25PX;
+    margin-top: -11px;
+    border: solid 3px blue;
+    background-color: blue;
+}
+.rasimhaqidaButton4:hover{
+    border: solid 3px blue;
+    background-color: white;
+}
+.haqidauchtablok{
+    display: inline-flex;
+    justify-content: center;
+}
+.haqidabirinchibolim{
+    margin-left: 10px;
+    margin-right: 30px;
+    width: 460px;
+    height: 400px;
+}
+.haqidabirinchibolim img{
+    width: 450px;
+    height: 410px;
+    margin-right: 10px;
+    border: solid 2px black;
+    box-shadow: 12px 12px;
+}
+.haqidabirinchibolim img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.haqidaikkinchibolim{
+    padding: 10px 15px 15px 15px;
+    background-color: rgb(244, 233, 233);
+    margin-right: 30px;
+    width: 100%;
+    height: auto;
+}
+.haqidaikkinchibolim .haqP{
+    text-align: justify;
+    font-size: 25px;
+}
+.haqidaikkinchibolim p{
+    text-align: center;
+}
+.haqidaikkinchibolim span{
+    font-size: 30px;
+    text-align: center;
+}
+.haqidaikkinchibolim:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.haqidauchunchibolim{
+    padding: 30px 20px 20px 20px;
+    background-color: rgb(243, 210, 160);
+    width: 100%;
+    height: auto;
+}
+.haqidauchunchibolim span{
+    font-size: 20px;
+}
+.haqidauchunchibolim a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.haqidauchunchibolim a:hover{
+    border: solid black 2px;
+    background-color: white;
+}
+.haqidauchunchibolim p{
+    font-size: 22px;
+    margin-top: 20px;
+    text-align: justify;
+}
+.haqidauchunchibolim:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.yangilikP01{
+    height: auto;
+    margin-left: 30%;
+    margin-top: -55%;
+    text-align: justify;
+}
+.yangilikP02{
+    height: auto;
+    margin-left: 30%;
+    margin-top: -34%;
+    text-align: justify;
+}
+.yangilikP03{
+    height: auto;
+    margin-left: 30%;
+    margin-top: -33%;
+    text-align: justify;
+}
+.ortachiziq{
+    background-color: rgb(225, 93, 93);
+    width: 8px;
+    height: 190px;
+}
+#gallery {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image-container {
+    width: 60%;
+    height: 400px;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: -14%;
+    margin-left: auto;
+  }
+  
+  .image-container img {
+    width: 96%;
+    margin-left: 10px;
+    height: 500px;
+    display: block;
+    border-radius: 10px;
+  }
+  .image-info {
+    position: absolute;
+    width: 91%;
+    bottom: -90px;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .image-info h3 {
+    margin-bottom: 5px;
+  }
+  .btn1{
+    font-size: 20px;
+    border-radius: 15px;
+  }
+  .btn1 a{
+    text-decoration: none;
+    
+  } 
+  .Birxilmatinlar{
+    width: 85%;
+    margin-left: 130px;
+    font-size: 25px;
+    text-align: justify;
+  }
+  .songiQism{
+    background-image: url(./img/1648968841_45-abrakadabra-fun-p-zadnii-plan-dlya-prezentatsii-54.jpg);
+    background-repeat: no-repeat;     
+    color: white;
+    height: 500px;
+}
+.yakuni03{
+   display: inline-flex;
+   color: red;
+}
+.boglanish{
+   text-transform: uppercase;
+   font-size: 30px;
+   color: tomato;
+   padding-top: 25px;
+   margin-right: 10px;
+}
+   .yakuni{
+   margin: 70px;
+   display: inline-flex;
+}
+  .yakuni p{
+   width: 40%;
+   margin-right: 30px;
+}
+  .iconlar ul{
+    margin-left: 28%;
+    font-size: 35px;    
+  }
+  .iconlar i:hover{
+    transform: scale(1.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  }
+  .engSongi{
+    color: rgb(194, 85, 85);
+    font-size: 30px;
+    margin-left: 16%;
+}
+
+  @media only screen and (max-width: 600px) {
+    .asosiy {
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+      }  
+      .rasim1 {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+      } 
+      .menu ul,
+      .menu li {
+        margin: 5px 0;
+        float: none;
+        display: block;
+        text-align: center;
+      } 
+      .asosiy a {
+        font-size: 20px;
+      }
+      .asosiy input {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+      }  
+      .asosiyButton1,
+      .asosiyButton2 {
+        display: block;
+        margin: 10px auto;
+      }
+    #rasimAlmashish img {
+        margin-top: 320px;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .icons {
+        margin-left: 32px;
+    }
+    .matin1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .gif{
+        margin: 25px;
+        margin-left: -8px;
+        width: 100%;
+        height: 600px;
+    }
+    .chiz {
+        color: red;
+        font-size: 35px;
+    }
+    .foiz {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        background-color: antiquewhite;
+    }
+    .foziop01 {
+        text-transform: uppercase;
+        font-size: 3px;
+        color: red;
+    }
+    .fozi01 {
+        display: inline-block;
+    }
+    .fozi01 span {
+        margin-left: 34%;
+        font-size: 70px;
+    }
+    .foiz p {
+        text-align: center;
+    }
+    .jamohaqidamatin {
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .jamohaqidamatin a {
+        text-decoration: none;
+    }
+    .jamohaqidamatin span {
+        color: red;
+    }
+    .birxilyozuv {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button1 {
+        margin-left: 20%;
+        margin-top: 20px;
+        border: solid 2px;
+        border-radius: 15px;
+        font-size: 25px;
+        background-color: yellowgreen;
+    }
+    .yangiliklar {
+        background-color: rgb(234, 226, 218);
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .textyangilik {
+        font-size: 25px;
+    }
+        #gallery {
+          display: block;
+        }     
+        .image-container {
+          width: 100%;
+          height: auto;
+          margin-bottom: 20px;
+          position: relative;
+          margin-top: 0;
+          margin-left: 0;
+        }     
+        .image-container img {
+          width: 100%;
+          height: auto;
+          display: block;
+          border-radius: 10px;
+        }      
+        .image-info {
+          position: static;
+          width: 100%;
+          bottom: auto;
+          left: auto;
+          background-color: transparent;
+          padding: 0;
+          border-radius: 0;
+        }   
+        .image-info h3 {
+          margin-bottom: 0;
+        }  
+        .yangilikP01,
+        .yangilikP02,
+        .yangilikP03 {
+          height: auto;
+          margin-left: 0;
+          margin-top: 0;
+          text-align: left;
+        }
+        .yangiliklar {
+          width: 100%;
+          height: auto;
+        }
+        
+        .yangilikdagiRasim {
+          width: 100%;
+          height: auto;
+          border-radius: 0;
+        }
+        .yangilikdagiRasim p {
+          width: 100%;
+          height: auto;
+        }
+        
+        .yangilikdagiRasim img {
+          width: 100%;
+          height: auto;
+          padding: 0;
+          display: block;
+          margin: 30px;
+        }
+        
+        .yangiliklar01 {
+          display: block;
+        }
+        
+        .yangiliklar01 span {
+          font-size: 30px;
+          color: red;
+        }
+        
+        .yangiliklar02 img {
+          width: 100%;
+          height: auto;
+        }      
+    .div {
+        display: inline-block;
+        justify-content: center;
+        background-color: wheat;
+    }
+    .tortarsim {
+        width: 100%;
+        height: auto;
+        border: solid 1px;
+    }
+    .blokrasim1 {
+        margin: 15px;
+        background-color: rgb(101, 227, 185);
+    }
+    .blokrasim1 #blokRasim01{
+        width: 100%;
+        height: auto;
+    }
+    .rivojlanish{
+        text-align: justify;
+        margin-top: -10px;
+    }
+    .rasimhaiqda {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .rasimhaqidaButton,
+    .rasimhaqidaButton2,
+    .rasimhaqidaButton3,
+    .rasimhaqidaButton4 {
+        font-size: 20px;
+        margin-left: 30%;
+        border: solid 1px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .haqidauchtablok{
+        display: inline-block;
+    }
+    .haqidabirinchibolim img {
+        margin-bottom: -300px;
+        width: 100%;
+        height: auto;
+    }
+    .haqidaikkinchibolim span {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .haqidauchunchibolim span {
+        font-size: 18px;
+    }
+    .haqidauchunchibolim a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: black;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .haqidaikkinchibolim p{
+            margin-right: 80px;
+            font-size: 18px;
+            margin-top: 15px;
+    }
+    .haqidauchunchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    } 
+    .btn1 {
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .btn1 a {
+        text-decoration: none;
+    }
+    .Birxilmatinlar {
+        width: 85%;
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .songiQism {
+        background-image: url(/img/1648968841_45-abrakadabra-fun-p-zadnii-plan-dlya-prezentatsii-54.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 1000px;
+    }
+    .yakuni03 {
+        display: inline-flex;
+        color: red;
+    }
+    .boglanish {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: tomato;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .yakuni {
+        margin: 50px;
+        display: inline-block;
+    }
+    .yakuni p {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .iconlar ul {
+        margin-left: 10%;
+        margin-right: 70px;
+        font-size: 25px;
+    }
+    .engSongi {
+        text-align: center;
+        color: rgb(194, 85, 85);
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .asosiy {
+        display: block;
+        text-align: center;
+    }
+    .rasim1 {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }
+    .menu ul,
+    .menu li {
+        margin: 5px 0;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .asosiy a {
+        font-size: 20px;
+    }
+    .asosiy input {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }  
+    .asosiyButton1,
+    .asosiyButton2 {
+        display: block;
+        margin: 10px auto;
+    }
+    #rasimAlmashish img {
+        margin-top: 310px;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .matin1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .chiz {
+        color: red;
+        font-size: 35px;
+    }
+    .foiz {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        background-color: antiquewhite;
+    }
+    .foziop01 {
+        text-transform: uppercase;
+        font-size: 3px;
+        color: red;
+    }
+    .fozi01 {
+        display: inline-block;
+    }
+    .fozi01 span {
+        margin-left: 34%;
+        font-size: 70px;
+    }
+    .foiz p {
+        text-align: center;
+    }
+    .jamohaqidamatin {
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .jamohaqidamatin a {
+        text-decoration: none;
+    }
+    .jamohaqidamatin span {
+        color: red;
+    }
+    .birxilyozuv {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button1 {
+        margin-left: 20%;
+        margin-top: 20px;
+        border: solid 2px;
+        border-radius: 15px;
+        font-size: 25px;
+        background-color: yellowgreen;
+    }
+    .yangiliklar {
+        background-color: rgb(234, 226, 218);
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .textyangilik {
+        font-size: 25px;
+    }
+    #gallery {
+        display: block;
+    }
+    .image-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .image-info {
+        position: static;
+        width: 100%;
+        bottom: auto;
+        left: auto;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+    .image-info h3 {
+        margin-bottom: 0;
+    }
+    .yangilikP01,
+    .yangilikP02,
+    .yangilikP03 {
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: left;
+    }
+    .yangiliklar {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+    .yangilikdagiRasim p {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: block;
+        margin: 30px;
+    }
+    .yangiliklar01 {
+        display: block;
+    }
+    .yangiliklar01 span {
+        font-size: 30px;
+        color: red;
+    }
+    .yangiliklar02 img {
+        width: 100%;
+        height: auto;
+    }
+    .div {
+        display: inline-block;
+        justify-content: center;
+        background-color: wheat;
+    }
+    .tortarsim {
+        width: 100%;
+        height: auto;
+        border: solid 1px;
+    }
+    .blokrasim1 {
+        margin: 15px;
+        background-color: rgb(101, 227, 185);
+    }
+    .blokrasim1 #blokRasim01{
+        width: 100%;
+        height: auto;
+    }
+    .blokrasim1 img{
+        width: 100%;
+    }
+    .rivojlanish {
+        text-align: justify;
+        margin-top: -10px;
+    }
+    .rasimhaiqda {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .rasimhaqidaButton,
+    .rasimhaqidaButton2,
+    .rasimhaqidaButton3,
+    .rasimhaqidaButton4 {
+        font-size: 20px;
+        margin-left: 30%;
+        border: solid 1px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .haqidauchtablok {
+        display: inline-block;
+    }
+    .haqidabirinchibolim{
+        width: 100%;
+        height: auto;
+    }
+    .haqidabirinchibolim img {
+        margin-bottom: -300px;
+        width: 100%;
+        height: auto;
+    }
+    .haqidaikkinchibolim span {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .haqidauchunchibolim span {
+        font-size: 18px;
+    }
+    .haqidauchunchibolim a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: black;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .haqidaikkinchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .haqidauchunchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .btn1 {
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .btn1 a {
+        text-decoration: none;
+    }
+    .Birxilmatinlar {
+        width: 85%;
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .songiQism {
+        background-image: url(/img/1648968841_45-abrakadabra-fun-p-zadnii-plan-dlya-prezentatsii-54.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 900px;
+    }
+    .yakuni03 {
+        display: inline-flex;
+        color: red;
+    }
+    .boglanish {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: tomato;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .yakuni {
+        margin: 50px;
+        display: inline-block;
+    }
+    .yakuni p {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .iconlar ul {
+        margin-left: 10%;
+        margin-right: 70px;
+        font-size: 25px;
+    }
+    .engSongi {
+        text-align: center;
+        color: rgb(194, 85, 85);
+        font-size: 25px;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .asosiy {
+        display: block;
+        text-align: center;
+    } 
+    .rasim1 {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    }  
+    .menu ul,
+    .menu li {
+        margin: 5px 0;
+        float: none;
+        display: block;
+        text-align: center;
+    } 
+    .asosiy a {
+        font-size: 20px;
+    } 
+    .asosiy input {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }  
+    .asosiyButton1,
+    .asosiyButton2 {
+        display: block;
+        margin: 10px auto;
+    }
+    #rasimAlmashish img {
+        margin-top: 270px;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .matin1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .chiz {
+        color: red;
+        font-size: 35px;
+    }
+    .foiz {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        background-color: antiquewhite;
+    }
+    .foziop01 {
+        text-transform: uppercase;
+        font-size: 3px;
+        color: red;
+    }
+    .fozi01 {
+        display: inline-block;
+    }
+    .fozi01 span {
+        margin-left: 34%;
+        font-size: 70px;
+    }
+    .foiz p {
+        text-align: center;
+    }
+    .jamohaqidamatin {
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .jamohaqidamatin a {
+        text-decoration: none;
+    }
+    .jamohaqidamatin span {
+        color: red;
+    }
+    .birxilyozuv {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button1 {
+        margin-left: 20%;
+        margin-top: 20px;
+        border: solid 2px;
+        border-radius: 15px;
+        font-size: 25px;
+        background-color: yellowgreen;
+    }
+    .yangiliklar {
+        background-color: rgb(234, 226, 218);
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .textyangilik {
+        font-size: 25px;
+    }
+    #gallery {
+        display: block;
+    }
+    .image-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .image-info {
+        position: static;
+        width: 100%;
+        bottom: auto;
+        left: auto;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+    .image-info h3 {
+        margin-bottom: 0;
+    }
+    .yangilikP01,
+    .yangilikP02,
+    .yangilikP03 {
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: left;
+    }
+    .yangiliklar {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+    .yangilikdagiRasim p {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: block;
+        margin: 30px;
+    }
+    .yangiliklar01 {
+        display: block;
+    }
+    .yangiliklar01 span {
+        font-size: 30px;
+        color: red;
+    }
+    .yangiliklar02 img {
+        width: 100%;
+        height: auto;
+    }
+    .div {
+        display: inline-block;
+        justify-content: center;
+        background-color: wheat;
+    }
+    .tortarsim {
+        width: 100%;
+        height: auto;
+        border: solid 1px;
+    }
+    .blokrasim1 {
+        margin: 15px;
+        background-color: rgb(101, 227, 185);
+    }
+    .blokrasim1 img {
+        width: 100%;
+    }
+    .blokrasim1 #blokRasim01{
+        width: 100%;
+        height: auto;
+    }
+    .rivojlanish {
+        text-align: justify;
+        margin-top: -10px;
+    }
+    .rasimhaiqda {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .rasimhaqidaButton,
+    .rasimhaqidaButton2,
+    .rasimhaqidaButton3,
+    .rasimhaqidaButton4 {
+        font-size: 20px;
+        margin-left: 30%;
+        border: solid 1px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .haqidauchtablok {
+        display: inline-block;
+    }
+    .haqidabirinchibolim{
+        width: 100%;
+        height: auto;
+    }
+    .haqidabirinchibolim img {
+        margin-bottom: -300px;
+        width: 100%;
+        height: auto;
+    }
+    .haqidaikkinchibolim span {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .haqidauchunchibolim span {
+        font-size: 18px;
+    }
+    .haqidauchunchibolim a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: black;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .haqidaikkinchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .haqidauchunchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .btn1 {
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .btn1 a {
+        text-decoration: none;
+    }
+    .Birxilmatinlar {
+        width: 85%;
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .songiQism {
+        background-image: url(/img/1648968841_45-abrakadabra-fun-p-zadnii-plan-dlya-prezentatsii-54.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 900px;
+    }
+    .yakuni03 {
+        display: inline-flex;
+        color: red;
+    }
+    .boglanish {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: tomato;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .yakuni {
+        margin: 50px;
+        display: inline-block;
+    }
+    .yakuni p {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .iconlar ul {
+        margin-left: 10%;
+        margin-right: 70px;
+        font-size: 25px;
+    }
+    .engSongi {
+        text-align: center;
+        color: rgb(194, 85, 85);
+        font-size: 25px;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .asosiy {
+        display: block;
+        text-align: center;
+    } 
+    .rasim1 {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+    } 
+    .menu ul,
+    .menu li {
+        margin: 5px 0;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .asosiy a {
+        font-size: 20px;
+    }
+    .asosiy input {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px auto;
+    }  
+    .asosiyButton1,
+    .asosiyButton2 {
+        display: block;
+        margin: 10px auto;
+    }
+    #rasimAlmashish img {
+        margin-top: 270px;
+        width: 100%;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .matin1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 25px;
+        font-size: 22px;
+    }
+    .chiz {
+        color: red;
+        font-size: 35px;
+    }
+    .foiz {
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        background-color: antiquewhite;
+    }
+    .foziop01 {
+        text-transform: uppercase;
+        font-size: 3px;
+        color: red;
+    }
+    .fozi01 {
+        display: inline-block;
+    }
+    .fozi01 span {
+        margin-left: 34%;
+        font-size: 70px;
+    }
+    .foiz p {
+        text-align: center;
+    }
+    .jamohaqidamatin {
+        text-align: justify;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 18px;
+    }
+    .jamohaqidamatin a {
+        text-decoration: none;
+    }
+    .jamohaqidamatin span {
+        color: red;
+    }
+    .birxilyozuv {
+        font-size: 25px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .button1 {
+        margin-left: 20%;
+        margin-top: 20px;
+        border: solid 2px;
+        border-radius: 15px;
+        font-size: 25px;
+        background-color: yellowgreen;
+    }
+    .yangiliklar {
+        background-color: rgb(234, 226, 218);
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .textyangilik {
+        font-size: 25px;
+    }
+    #gallery {
+        display: block;
+    }
+    .image-container {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        position: relative;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .image-container img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+    .image-info {
+        position: static;
+        width: 100%;
+        bottom: auto;
+        left: auto;
+        background-color: transparent;
+        padding: 0;
+        border-radius: 0;
+    }
+    .image-info h3 {
+        margin-bottom: 0;
+    }
+    .yangilikP01,
+    .yangilikP02,
+    .yangilikP03 {
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+        text-align: left;
+    }
+    .yangiliklar {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+    }
+    .yangilikdagiRasim p {
+        width: 100%;
+        height: auto;
+    }
+    .yangilikdagiRasim img {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: block;
+        margin: 30px;
+    }
+    .yangiliklar01 {
+        display: block;
+    }
+    .yangiliklar01 span {
+        font-size: 30px;
+        color: red;
+    }
+    .yangiliklar02 img {
+        width: 100%;
+        height: auto;
+    }
+    .div {
+        display: inline-block;
+        justify-content: center;
+        background-color: wheat;
+    }
+    .tortarsim {
+        width: 100%;
+        height: auto;
+        border: solid 1px;
+    }
+    .blokrasim1 {
+        margin: 15px;
+        background-color: rgb(101, 227, 185);
+    }
+    .blokrasim1 img {
+        width: 100%;
+    }
+    .blokrasim1 #blokRasim01{
+        width: 100%;
+        height: auto;
+    }
+    .rivojlanish {
+        text-align: justify;
+        margin-top: -10px;
+    }
+    .rasimhaiqda {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .rasimhaqidaButton,
+    .rasimhaqidaButton2,
+    .rasimhaqidaButton3,
+    .rasimhaqidaButton4 {
+        font-size: 20px;
+        margin-left: 30%;
+        border: solid 1px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .haqidauchtablok {
+        display: inline-block;
+    }
+    .haqidabirinchibolim{
+    width: 100%;
+    margin-bottom: 300px;
+    }
+    .haqidabirinchibolim img {
+        margin-bottom: -300px;
+        width: 100%;
+        height: auto;
+    }
+    .haqidaikkinchibolim span {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        text-align: justify;
+    }
+    .haqidauchunchibolim span {
+        font-size: 18px;
+    }
+    .haqidauchunchibolim a {
+        margin-bottom: 20px;
+        text-decoration: none;
+        color: black;
+        border: solid black 1px;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .haqidaikkinchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .haqidauchunchibolim p {
+        margin-right: 80px;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .btn1 {
+        font-size: 18px;
+        border-radius: 15px;
+    }
+    .btn1 a {
+        text-decoration: none;
+    }
+    .Birxilmatinlar {
+        width: 85%;
+        margin-left: 10px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .songiQism {
+        background-image: url(/img/1648968841_45-abrakadabra-fun-p-zadnii-plan-dlya-prezentatsii-54.jpg);
+        background-repeat: no-repeat;
+        color: white;
+        height: 900px;
+    }
+    .yakuni03 {
+        display: inline-flex;
+        color: red;
+    }
+    .boglanish {
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 25px;
+        color: tomato;
+        padding-top: 20px;
+        margin-right: 10px;
+    }
+    .yakuni {
+        margin: 50px;
+        display: inline-block;
+    }
+    .yakuni p {
+        width: 100%;
+        margin-right: 20px;
+    }
+    .iconlar ul {
+        margin-left: 10%;
+        margin-right: 70px;
+        font-size: 25px;
+    }
+    .engSongi {
+        text-align: center;
+        color: rgb(194, 85, 85);
+        font-size: 25px;
+        margin-left: 10%;
+    }
+}
